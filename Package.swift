@@ -3,12 +3,12 @@
 
 import PackageDescription
 
-let mapsindoorsVersion = Version("4.17.3")
-let checksum = "1acefa58b4c0dcb1bf7c34f4a748a3a7e1fce29f4602236c63b27bb53cb3ef82"
+let mapsindoorsVersion = Version("4.18.0-rc.1")
+let checksum = "7336e0731bba1ccd92243a4d3c2a2d0e7ce008b2f3d630160afb331a74eb16bc"
 
 let package = Package(
     name: "MapsIndoorsCodable",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v16)],
     products: [
         .library(name: "MapsIndoorsCodable", targets: ["MapsIndoorsCodableWrapper"]),
     ],
